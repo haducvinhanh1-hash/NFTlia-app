@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+    body {
+        @apply font-normal text-base;
+    }
+    input { outline-style: none}
+    input::-ms-reveal,
+    input::-ms-clear {
+        display: none;
+    }
+
+}
+.blur-card {
+    width: 316px;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 12px;
+    transform: translateX(-43px);
+    transition: all 0.2s linear;
+}
+input:focus + .error-input {
+    display: none;
+}

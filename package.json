@@ -1,0 +1,73 @@
+{
+  "name": "nft-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@firebase/analytics": "^0.8.0",
+    "@firebase/app": "^0.7.29",
+    "@firebase/auth": "^0.20.5",
+    "@firebase/firestore": "^3.4.13",
+    "@hookform/resolvers": "^2.9.7",
+    "@material-ui/core": "^4.12.4",
+    "@mui/material": "^5.9.3",
+    "@mui/styles": "^5.9.3",
+    "@reduxjs/toolkit": "^1.8.3",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^14.3.0",
+    "aos": "^2.3.4",
+    "axios": "^0.27.2",
+    "copy-to-clipboard": "^3.3.1",
+    "ethers": "^5.6.9",
+    "firebase": "^9.9.1",
+    "gsap": "^3.10.4",
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-countdown": "^2.3.2",
+    "react-dom": "^18.3.1",
+    "react-error-boundary": "^3.1.4",
+    "react-hook-form": "^7.34.0",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^9.0.7",
+    "sass": "^1.53.0",
+    "slugify": "^1.6.5",
+    "styled-components": "^5.3.5",
+    "swr": "^1.3.0",
+    "uuid": "^8.3.2",
+    "web-vitals": "^2.1.4",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "prettier": "2.7.1",
+    "tailwindcss": "^3.1.6"
+  }
+}

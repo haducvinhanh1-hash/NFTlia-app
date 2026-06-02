@@ -1,0 +1,31 @@
+module.exports = {
+  content: ['./src/**/*.{html,js}'],
+  darkMode: 'class',
+  theme: {
+    extend: {
+      colors: {
+        error: '#EB5757',
+        primary: '#3C50E0',
+        secondary: '#83BF6E',
+        support1: '#FFA2C0',
+        support2: '#FFCE73',
+        shades1: '#5062E3',
+        shades2: '#6373E6',
+        shades3: '#8A96EC',
+        secondaryShades1: '#8FC57C',
+        secondaryShades2: '#A8D299',
+        secondaryShades3: '#C1DFB7',
+        support11: '#FFB7F5',
+        support21: '#FFE2AC',
+        support22: '#FFF3DC',
+        support23: '#FF9A7B',
+        support24: '#FF754C',
+        black1: '#1B1D21',
+        black2: '#11142D',
+        naturalcolor2: '#808191',
+        darkbg: '#1F2128',
+      },
+    },
+  },
+  plugins: [],
+};
